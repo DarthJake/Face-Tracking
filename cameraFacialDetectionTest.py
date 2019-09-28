@@ -5,8 +5,8 @@ import cv2
 def detect(image):
     # Need this
     haar_cascade_face = cv2.CascadeClassifier(
-        './build/opencv/sources/data/haarcascades/haarcascade_frontalface_default.xml')
-
+        './../build/opencv/sources/data/haarcascades/haarcascade_frontalface_default.xml')
+    
     # Dont want to change original. making copy
     image_copy = image.copy()
 
